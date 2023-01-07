@@ -1,0 +1,15 @@
+entity Pet {
+    forSale Boolean
+	category Category
+    race String
+    name String
+    owner Long
+    picture String
+}
+
+enum Category {
+    DOG, CAT, BIRD, FISH, EXOTIC
+}
+
+// Set pagination options
+paginate Pet with infinite-scroll

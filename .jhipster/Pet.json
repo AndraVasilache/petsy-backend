@@ -1,0 +1,42 @@
+{
+  "applications": "*",
+  "changelogDate": "20230107190817",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "pet",
+  "fields": [
+    {
+      "fieldName": "forSale",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "category",
+      "fieldType": "Category",
+      "fieldValues": "DOG,CAT,BIRD,FISH,EXOTIC"
+    },
+    {
+      "fieldName": "race",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "owner",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "picture",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Pet",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no",
+  "skipClient": true
+}
